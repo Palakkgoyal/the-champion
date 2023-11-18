@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We are the Champions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <img src="assets/freddie.png" alt="a whole white, man shadow, with widen legs, holding one hand above like a champion" class="img">
+            <h1 class="main-title">We are the Champions</h1>
+            <div>
+                <textarea id="endorsement-input-el" class="input" rows="3" cols="10" placeholder="Write you endorsement here"></textarea>
+                <div class="input-container">
+                    <input type="text" placeholder="From" id="from-input-el" class="input">
+                    <input type="text" placeholder="To" id="to-input-el" class="input">
+                </div>
+            </div>
+            <button id="btn">Publish</button>
+            <h3 class="sub-title">- Endorsements -</h3>
+            <ul class="endorsements-container" id="endorsements-container">
+            </ul>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
